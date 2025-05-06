@@ -57,7 +57,7 @@ data <- imap(
     ) %>%
       reduce(bind_rows)
     
-    write_csv(stage_data, glue('../data/{stage}_qrq.csv'))
+    write_csv(stage_data, glue('../data/historic-data/qrq-{stage}.csv'))
 
   }
 )
