@@ -170,3 +170,6 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 .DS_Store
+data/historic-data/qrq-raw.csv
+data/historic-data/qrq-clean.csv
+data/features/stage_1_features.csv
